@@ -19,5 +19,27 @@ body {
 .container {
    width: 80%;
    margin: 0 auto;
-   background-color: aquamarine;
+   margin-top: 30px;
+}
+
+.row {
+    display: flex;
+}
+
+.col-small {
+    background-color: blueviolet;
+    height: 500px;
+    width: 400px;
+}
+
+.col-large {
+    background-color: chartreuse;
+    height: 500px;
+    width: 800px;
+}
+
+@media screen and (max-width: 376px ) {
+    .col-small {
+        display: none;
+    }
 }
