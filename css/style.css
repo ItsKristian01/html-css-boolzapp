@@ -43,6 +43,7 @@ body {
     background-color: chartreuse;
     height: 500px;
     width: 800px;
+    padding: .6rem;
 }
 
 @media screen and (max-width: 376px ) {
@@ -67,10 +68,6 @@ body {
     .col-large {
         /* Debug */
         height: 600px;
-    }
-
-    .contact-head {
-        display: none;
     }
 
     .notifications{
@@ -121,18 +118,25 @@ body {
 
 /* CONTACT-CHAT SECTION */
 
-
-
 /* CHAT SECTION */
 
 /* CHAT HEAD-BAR */
 
 /* MAIN */
-
+.main-chat {
+    background-image: url(../img/mine.jpg);
+    /* Debug */
+    height: 400px;
+}
 /* MAIN CHAT */
 
 /* FOOTER */
 
 /* FOOT-BAR */
+.foot-bar {
+    background-color: hsl(26.67deg 27.27% 93.53%);
+    /* Debug */
+    height: 35px;
+}
 
 /* CHAT SECTION */
