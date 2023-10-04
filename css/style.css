@@ -33,14 +33,15 @@ body {
 .col-small {
     /* Debug */
     background-color: blueviolet;
-    height: 600px;
+    height: 500px;
     width: 400px;
+    padding: .5rem;
 }
 
 .col-large {
     /* Debug */
     background-color: chartreuse;
-    height: 600px;
+    height: 500px;
     width: 800px;
 }
 
@@ -59,25 +60,64 @@ body {
 
     .col-small {
         width: 70%;
+         /* Debug */
+         height: 600px;
     }
+
+    .col-large {
+        /* Debug */
+        height: 600px;
+    }
+
+    .contact-head {
+        display: none;
+    }
+
+    .notifications{
+        display: none;
+    }
+
+    .search-bar {
+        display: none;
+    }
+
 }
 
 
 /* CONTACT-CHAT SECTION */
 
 /* HEADEAR CONTACT */
-
 .contact-head {
    background-color: hsl(0deg 0% 91.76%);
    /* Debug */
-   height: 60px;
+   height: 50px;
 }
 
 /* NOTIFICATIONS */
+.notifications {
+    background-color: hsl(198.55deg 94.83% 77.25%);
+    /* Debug */
+    height: 50px;
+}
 
 /* SEARCH-BAR */
+.search-bar {
+    background-color: white;
+    /* Debug */
+    height: 20px;
+    padding: .7rem;
+    border-radius: .5rem;
+    margin-top: 10px;
+}
 
 /* CONTACT LIST */
+.contact-list {
+    background-color: white;
+    list-style: none;
+     /* Debug */
+     height: 40px;
+     margin-top: 10px;
+}
 
 /* CONTACT-CHAT SECTION */
 
