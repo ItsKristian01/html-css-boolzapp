@@ -31,14 +31,16 @@ body {
 }
 
 .col-small {
+    /* Debug */
     background-color: blueviolet;
-    height: 500px;
+    height: 600px;
     width: 400px;
 }
 
 .col-large {
+    /* Debug */
     background-color: chartreuse;
-    height: 500px;
+    height: 600px;
     width: 800px;
 }
 
@@ -46,12 +48,30 @@ body {
     .col-small {
         display: none;
     }
+
 }
 
---------------------------
+@media screen and (max-width: 426px ) {
+    .container{
+        width: 100%;
+        margin: 0;
+    }
+
+    .col-small {
+        width: 70%;
+    }
+}
+
+
 /* CONTACT-CHAT SECTION */
---------------------------
+
 /* HEADEAR CONTACT */
+
+.contact-head {
+   background-color: hsl(0deg 0% 91.76%);
+   /* Debug */
+   height: 60px;
+}
 
 /* NOTIFICATIONS */
 
@@ -59,13 +79,12 @@ body {
 
 /* CONTACT LIST */
 
---------------------------
 /* CONTACT-CHAT SECTION */
---------------------------
 
--------------------
+
+
 /* CHAT SECTION */
--------------------
+
 /* CHAT HEAD-BAR */
 
 /* MAIN */
@@ -76,6 +95,4 @@ body {
 
 /* FOOT-BAR */
 
--------------------
 /* CHAT SECTION */
--------------------
