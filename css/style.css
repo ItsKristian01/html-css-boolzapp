@@ -9,3 +9,15 @@
 img {
     width: 100%;
 }
+
+body {
+    background-color: hsl(67.5deg 10% 84.31%);
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+   width: 80%;
+   margin: 0 auto;
+   background-color: aquamarine;
+}
