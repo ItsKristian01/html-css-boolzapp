@@ -10,7 +10,7 @@ img {
     width: 100%;
 }
 
-body {
+.background {
     background: linear-gradient(
         to bottom,
         hsl(174.4deg 100% 29.41%) 20%,                                                                 
@@ -18,12 +18,14 @@ body {
     );
     height: 100vh;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
    width: 80%;
-   margin: 0 auto;
-   margin-top: 30px;
+   height: 90%;
 }
 
 .row {
@@ -31,43 +33,29 @@ body {
 }
 
 .col-small {
-    /* Debug */
-    background-color: blueviolet;
-    height: 500px;
-    width: 400px;
-    padding: .5rem;
+    width: 20%;
 }
 
 .col-large {
-    /* Debug */
-    background-color: chartreuse;
-    height: 500px;
-    width: 800px;
-    padding: .6rem;
+    width: 80%;
 }
 
 @media screen and (max-width: 376px ) {
     .col-small {
         display: none;
+        width: 100%;
     }
 
 }
 
-@media screen and (max-width: 426px ) {
+@media screen and (max-width: 540px ) {
     .container{
         width: 100%;
-        margin: 0;
+        height: 100%;
     }
 
     .col-small {
-        width: 70%;
-         /* Debug */
-         height: 600px;
-    }
-
-    .col-large {
-        /* Debug */
-        height: 600px;
+        width: 20%; 
     }
 
     .notifications{
@@ -114,6 +102,10 @@ body {
      /* Debug */
      height: 40px;
      margin-top: 10px;
+}
+
+.contact {
+    overflow-y: scroll;
 }
 
 /* CONTACT-CHAT SECTION */
