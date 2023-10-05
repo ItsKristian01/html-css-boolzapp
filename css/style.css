@@ -33,7 +33,7 @@ img {
 }
 
 .col-small {
-    width: 30%;
+    width: 40%;
 }
 
 .col-large {
@@ -62,7 +62,7 @@ img {
         width: 20%; 
     }
 
-    .notifications{
+    .notifications {
         display: none;
     }
 
@@ -106,9 +106,19 @@ img {
 /* NOTIFICATIONS */
 .notifications {
     background-color: hsl(198.55deg 94.83% 77.25%);
-    /* Debug */
-    height: 50px;
+    height: 60px;
+    display: flex;
 }
+
+.white-bg {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    margin: 7px;
+}
+
+
 
 /* SEARCH-BAR */
 .search-bar {
@@ -124,14 +134,15 @@ img {
 .contact-list {
     background-color: white;
     list-style: none;
-     /* Debug */
-     height: 40px;
-     margin-top: 10px;
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
 }
 
 .contact {
     overflow-y: scroll;
 }
+
 
 /* CONTACT-CHAT SECTION */
 
