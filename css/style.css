@@ -56,13 +56,12 @@ img {
 }
 
 @media screen and (max-width: 540px ) {
-    .container{
+    .container {
         width: 100%;
-        height: 100%;
     }
 
     .col-small {
-        width: 10%; 
+        width: 15%; 
     }
 
     .col-large {
@@ -111,6 +110,14 @@ img {
     .activate-not {
         display: none;
     }
+
+    .contact-head {
+        width: 98%;
+    }
+
+    .avatar-io {
+       margin-left: 5px;
+    }
 }
 
 /* NOTIFICATIONS */
@@ -134,8 +141,14 @@ img {
 
 .notifications-text,.activate-not {
    padding: .2rem;
-   font-size: 15px;
+   font-size: 14px;
    margin-top: 5px;
+}
+
+@media screen and (max-width: 540px) {
+    .notifications {
+        display: none;
+    }
 }
 
 /* SEARCH-BAR */
@@ -150,6 +163,7 @@ img {
 
 .search-control{
     background-color: white;
+    width: 100%;
     padding: 3px 5px;
     border: 1px solid black;
     display: flex;
@@ -163,6 +177,12 @@ img {
 
 .search-control input:focus-visible {
     outline: none;
+}
+
+@media  screen and (max-width: 540px) {
+    .search-bar{
+        display: none;
+    }
 }
 
 /* CONTACT LIST */
@@ -189,12 +209,20 @@ img {
     color: hsl(210deg 10.53% 77.65%);
 }
 
+@media  screen and (max-width: 540px) {
+    .contact-info,.lorem,.text{
+        display: none;
+    }
+}
+
 /* CONTACT-CHAT SECTION */
 
 /* CHAT SECTION */
 
 /* CHAT HEAD-BAR */
-
+.text-head {
+    margin-right: 220px;
+}
 /* MAIN */
 .main-chat {
     background-image: url(../img/mine.jpg);
