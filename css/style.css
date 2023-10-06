@@ -62,11 +62,11 @@ img {
     }
 
     .col-small {
-        width: 20%; 
+        width: 10%; 
     }
 
-    .notifications {
-        display: none;
+    .col-large {
+        width: 100%;
     }
 
     .search-bar {
@@ -104,6 +104,15 @@ img {
     gap: .5rem;
 }
 
+@media screen and (max-width: 540px) {
+    .icons,
+    .icon-btn,
+    .notifications-text,
+    .activate-not {
+        display: none;
+    }
+}
+
 /* NOTIFICATIONS */
 .notifications {
     background-color: hsl(198.55deg 94.83% 77.25%);
@@ -113,13 +122,21 @@ img {
 
 .white-bg {
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 30px;
     background-color: white;
-    margin: 7px;
+    margin: 10px;
 }
 
+.activate-not {
+    color:hsl(198.26deg 28.4% 52.35%) ;
+}
 
+.notifications-text,.activate-not {
+   padding: .2rem;
+   font-size: 15px;
+   margin-top: 5px;
+}
 
 /* SEARCH-BAR */
 .search-bar {
@@ -154,8 +171,7 @@ img {
 /* MAIN */
 .main-chat {
     background-image: url(../img/mine.jpg);
-    /* Debug */
-    height: 400px;
+    height: 480px;
 }
 /* MAIN CHAT */
 
