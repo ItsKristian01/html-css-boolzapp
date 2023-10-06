@@ -145,6 +145,7 @@ img {
     padding: 20px;
     display: flex;
     align-items: center;
+    justify-content: flex-start;
 }
 
 .search-control{
@@ -165,22 +166,28 @@ img {
 }
 
 /* CONTACT LIST */
+.contact {
+    overflow-y: scroll;
+}
 .contact-list {
     background-color: white;
     list-style: none;
     height: 50px;
     border: 1px solid black;
     display: flex;
+    justify-content: space-between;
+    padding: .2rem;
 }
 
-.contact ul {
-    overflow-y: scroll;
+.lorem,.text {
+    font-size: 15px;
+    color: hsl(210deg 10.53% 77.65%);
 }
 
-
-
-
-
+.text {
+    font-size: 10px;
+    color: hsl(210deg 10.53% 77.65%);
+}
 
 /* CONTACT-CHAT SECTION */
 
@@ -191,7 +198,7 @@ img {
 /* MAIN */
 .main-chat {
     background-image: url(../img/mine.jpg);
-    height: 412px;
+    height: 417px;
 }
 /* MAIN CHAT */
 
@@ -200,7 +207,6 @@ img {
 /* FOOT-BAR */
 .foot-bar {
     background-color: hsl(26.67deg 27.27% 93.53%);
-    /* Debug */
     height: 33px;
 }
 
