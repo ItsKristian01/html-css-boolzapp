@@ -230,6 +230,24 @@ img {
 }
 /* MAIN CHAT */
 
+/* MESSAGES */
+
+.content {
+   overflow-y: scroll;
+   height: calc(100% - 33px);
+   padding: 2rem 3rem;
+}
+.message-row {
+    display: flex;
+}
+.message-box {
+    background-color: hsl(94.29deg 84% 85.29%);
+    padding: .5rem;
+    border-radius: 5px;
+    min-width: 250px;
+    max-width: 70%;
+}
+
 /* FOOTER */
 
 /* FOOT-BAR */
